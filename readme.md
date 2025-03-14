@@ -20,6 +20,18 @@ Creating Requirements:
 pip freeze > requirements.txt
 ```
 
+# Running the flask server
+
+```
+flask run --debug 
+```
+
+OR 
+
+```
+flask shell
+```
+
 # Postgres: 
 
 ```
