@@ -34,6 +34,8 @@ flask shell
 
 # Postgres: 
 
+To disable postgres, just comment out the postgres commands in `__init__.py` 
+
 ```
 brew services start postgresql
 ```
