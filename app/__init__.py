@@ -24,7 +24,8 @@ def createApp(configName='default'):
     from app.models import sql_models
 
     mongo.connect(
-        host=app.config['MONGO_URI']
+        host=app.config['MONGO_URI'],
+        db=app.config['MONGO_DB_NAME']
     )
 
     # Initialize components

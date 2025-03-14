@@ -38,5 +38,6 @@ To disable postgres, just comment out the postgres commands in `__init__.py`
 
 ```
 brew services start postgresql
+brew services stop postgresql # To stop
 ```
 

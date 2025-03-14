@@ -19,6 +19,7 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     MONGO_URI = os.getenv('MONGO_URI', 'dev-key-change-in-production')
+    MONGO_DB_NAME = os.getenv('MONGO_DB_NAME', 'dev-key-change-in-production')
 
 
 
